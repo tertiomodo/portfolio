@@ -1,0 +1,40 @@
+.skills {
+  margin-bottom: 64rem;
+}
+
+.title {
+  font-size: 14rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray);
+  margin: 0 0 32rem 0;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rem;
+}
+
+.badge {
+  font-size: 15rem;
+  padding: 8rem 16rem;
+  background-color: var(--bg-light);
+  border-radius: 6rem;
+  color: var(--black);
+  transition: background-color 0.2s ease;
+  cursor: default;
+}
+
+@media (hover: hover) {
+  .badge:hover {
+    background-color: var(--gray-light);
+  }
+}
+
+@media (min-width: 768px) {
+  .skills {
+    margin-bottom: 96rem;
+  }
+}

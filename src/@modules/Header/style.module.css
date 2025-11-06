@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 32rem;
+  margin-bottom: 64rem;
+}
+
+.nameSec {
+  flex: 1;
+  min-width: 300rem;
+}
+
+.name {
+  font-size: 40rem;
+  font-weight: 600;
+  margin: 0 0 8rem 0;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--black);
+}
+
+.title {
+  margin: 0;
+  font-size: 18rem;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24rem;
+}
+
+.link {
+  position: relative;
+  font-size: 15rem;
+  color: var(--gray);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  bottom: -4rem;
+  left: 0;
+  width: 0;
+  height: 1rem;
+  background-color: var(--black);
+  transition: width 0.3s ease;
+}
+
+@media (hover: hover) {
+  .link:hover {
+    color: var(--black);
+  }
+
+  .link:hover::after {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    margin-bottom: 96rem;
+  }
+
+  .name {
+    font-size: 64rem;
+  }
+
+  .title {
+    font-size: 24rem;
+  }
+
+  .nav {
+    gap: 32rem;
+  }
+
+  .link {
+    font-size: 17rem;
+  }
+}
