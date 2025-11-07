@@ -13,11 +13,11 @@ const Hero = () => {
         </div>
         <div className={styles.text}>
           <p className={styles.intro}>
-            I like to transform beautiful design layouts into well-functioning
+            I like transforming beautiful design layouts into well-functioning
             interfaces that benefit both users and business. I thrive on
             implementing interesting ideas and bringing projects to life. I'm
             passionate about technology and constantly seeking opportunities to
-            learn and apply new skills.
+            learn and apply new skills
           </p>
           <div className={styles.contact}>
             <a href="mailto:itertiomodo@gmail.com" className={styles.link}>
