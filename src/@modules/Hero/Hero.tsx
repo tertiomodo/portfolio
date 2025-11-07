@@ -43,7 +43,7 @@ const Hero = () => {
             </a>
             <span className={styles.sep}>•</span>
             <a
-              href="./resume.pdf"
+              href="./Aleksandr Muchin, React Frontend Developer.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.link}
