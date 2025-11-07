@@ -6,8 +6,8 @@ const Footer = () => {
       <div className={styles.wrapper}>
         <h2 className={styles.title}>Let's work together</h2>
         <p className={styles.text}>
-          I'm currently available for full-time opportunities. Feel free to
-          reach out if you'd like to discuss a project or just say hello.
+          Feel free to reach me out if you'd like to discuss a project or just
+          say hello!
         </p>
         <div className={styles.links}>
           <a href="mailto:itertiomodo@gmail.com" className={styles.link}>
