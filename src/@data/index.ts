@@ -1,6 +1,7 @@
-import type { Project } from "@types";
+import type { Project } from "@appTypes";
 import jullery from "./img/jullery.jpg";
 import gameOfPairs from "./img/game_of_pairs.png";
+import brimm from "./img/brimm.png";
 
 export const projects: Project[] = [
   {
@@ -23,6 +24,14 @@ export const projects: Project[] = [
     image: gameOfPairs,
     tags: ["HTML", "CSS", "JavaScript"],
     link: "https://tertiomodo.github.io/pairs-game/",
+  },
+  {
+    title: "Brimm - Water tracker app",
+    description:
+      "Minimalistic water tracker app that could be installed as a PWA to your phone",
+    image: brimm,
+    tags: ["React", "TypeScript", "CSS Modules", "Vite", "PWA"],
+    link: "https://brimm.tertiomodo.com/",
   },
 ];
 

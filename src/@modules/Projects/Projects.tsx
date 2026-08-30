@@ -1,4 +1,4 @@
-import type { Project } from "@types";
+import type { Project } from "@appTypes";
 import styles from "./style.module.css";
 
 interface ProjectsProps {
