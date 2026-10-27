@@ -11,15 +11,11 @@ const Projects = ({ projects }: ProjectsProps) => {
       <h2 className={styles.title}>Selected Projects</h2>
       <div className={styles.grid}>
         {projects.map((project, index) => (
-          <a
-            key={index}
-            href={project.link}
-            target="_blank"
-            className={styles.card}
-          >
+          <article key={index} className={styles.card}>
             <img
               src={project.image}
               alt={project.title}
+              loading="lazy"
               className={styles.img}
             />
             <h3 className={styles.cardTitle}>{project.title}</h3>
@@ -31,7 +27,25 @@ const Projects = ({ projects }: ProjectsProps) => {
                 </span>
               ))}
             </div>
-          </a>
+            <div className={styles.links}>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                Live demo
+              </a>
+              <a
+                href={project.repo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                GitHub
+              </a>
+            </div>
+          </article>
         ))}
       </div>
     </section>

@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <footer id="contact" className={styles.footer}>
       <div className={styles.wrapper}>
-        <h2 className={styles.title}>Let's work together</h2>
+        <h2 className={styles.title}>Open to new opportunities</h2>
         <p className={styles.text}>
-          Feel free to reach me out if you'd like to discuss a project or just
-          say hello!
+          Looking for a React Frontend Developer role, remote or with
+          relocation. Feel free to reach me out!
         </p>
         <div className={styles.links}>
           <a href="mailto:itertiomodo@gmail.com" className={styles.link}>

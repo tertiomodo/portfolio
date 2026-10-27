@@ -17,6 +17,7 @@ export const projects: Project[] = [
       "Custom slider library",
     ],
     link: "https://jullery.vercel.app/",
+    repo: "https://github.com/tertiomodo/jullery",
   },
   {
     title: "Game of Pairs",
@@ -24,6 +25,7 @@ export const projects: Project[] = [
     image: gameOfPairs,
     tags: ["HTML", "CSS", "JavaScript"],
     link: "https://tertiomodo.github.io/pairs-game/",
+    repo: "https://github.com/tertiomodo/pairs-game",
   },
   {
     title: "Brimm - Water tracker app",
@@ -32,6 +34,7 @@ export const projects: Project[] = [
     image: brimm,
     tags: ["React", "TypeScript", "CSS Modules", "Vite", "PWA"],
     link: "https://brimm.tertiomodo.com/",
+    repo: "https://github.com/tertiomodo/brimm",
   },
 ];
 
@@ -42,11 +45,19 @@ export const skills: string[] = [
   "TypeScript",
   "JavaScript",
   "Astro",
+  "Svelte",
   "HTML",
   "CSS",
   "SCSS",
+  "Vitest",
   "Git",
+  "CI/CD",
   "Vite",
   "Figma",
+  "Claude Code",
+  "Codex",
+  "Agentic development",
+  "Performance optimization",
+  "Accessibility",
   "Responsive Design",
 ];
