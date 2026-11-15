@@ -41,15 +41,6 @@ const Hero = () => {
             >
               LinkedIn
             </a>
-            <span className={styles.sep}>•</span>
-            <a
-              href="./Aleksandr-Muchin-Frontend.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
-              PDF Resume
-            </a>
           </div>
         </div>
       </div>
