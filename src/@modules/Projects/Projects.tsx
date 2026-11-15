@@ -34,7 +34,7 @@ const Projects = ({ projects }: ProjectsProps) => {
                 rel="noopener noreferrer"
                 className={styles.link}
               >
-                Live demo
+                Project Link
               </a>
               <a
                 href={project.repo}
