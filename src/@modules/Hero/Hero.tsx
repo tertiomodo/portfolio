@@ -13,11 +13,14 @@ const Hero = () => {
         </div>
         <div className={styles.text}>
           <p className={styles.intro}>
-            I like transforming beautiful design layouts into well-functioning
-            interfaces that benefit both users and business. I thrive on
-            implementing interesting ideas and bringing projects to life. I'm
-            passionate about technology and constantly seeking opportunities to
-            learn and apply new skills
+            I’m a Senior Frontend Developer with strong AI skills. I have 5
+            years of professional experience, including 4 years in a fintech and
+            1+ year in an outsourcing agency. I specialize in building
+            high-performance interfaces, optimizing pages metrics, and
+            delivering clean, reliable frontend code. I’ve worked on landing
+            pages, marketing platforms, and large-scale product websites,
+            consistently improving performance, accessibility, and overall user
+            experience.
           </p>
           <div className={styles.contact}>
             <a href="mailto:itertiomodo@gmail.com" className={styles.link}>
